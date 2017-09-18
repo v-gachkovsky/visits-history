@@ -1,0 +1,35 @@
+{
+  "name": "visits-history",
+  "version": "1.0.0",
+  "description": "Visits History Generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha spec/**/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/v-gachkovsky/visits-history.git"
+  },
+  "keywords": [
+    "generator",
+    "report",
+    "visits",
+    "history"
+  ],
+  "author": "Vladimir Gachkovsky <v.gachkovsky@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v-gachkovsky/visits-history/issues"
+  },
+  "homepage": "https://github.com/v-gachkovsky/visits-history#readme",
+  "dependencies": {
+    "imap-simple": "^3.1.0",
+    "moment": "^2.18.1",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "log-suppress": "^1.0.3",
+    "mocha": "^3.5.3"
+  }
+}
